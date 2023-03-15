@@ -1,2 +1,3 @@
-#!/bin/bash
-tri 'A-Za' 'N-Za-Mn-Za-m
+#!/bin/bash 
+
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
